@@ -29,6 +29,10 @@
     "authors": [
     ],
     "repositories": {        
+	    "foo":{
+		    "type": "git",
+		"url": "https://github.com/pixel-by-pixel/foo"	    
+	    },
 		"dx8": {
             "type": "vcs",
             "url": "https://bitbucket.org/cohesion_dev/dx8-module.git"
