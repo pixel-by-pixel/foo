@@ -1,0 +1,61 @@
+{
+    "name": "pixel-by-pixel/foo",
+    "description": "Drupal project with composer",
+    "type": "project",
+	"config": {
+        "platform": {
+            "php": "7.1"
+        },
+		"sort-packages": false
+    },	
+    "require": {
+		"cohesion/dx8": "^5.4",
+        "cohesion/dx8-theme": "^5.4",	
+        "pixel-by-pixel/pixel_dx8_theme": "*",
+		"drupal/menu_link_attributes" : "^1.0",
+		"drupal/metatag": "^1.8",
+		"drupal/xmlsitemap" : "^1.0",
+		"drupal/pathauto": "^1.4",
+		"drupal/better_exposed_filters": "^3.0",
+		"drupal/commerce" : "*",
+		"drupal/admin_toolbar": "^1.26",
+		"drupal/context":"^4.0",
+		"drupal/google_analytics":"^2.4",
+		"drupal/views_infinite_scroll":"^1.5",
+		"drupal/request_data_conditions":"^1.5",
+		"drupal/search_api":"^1.12",
+		"drupal/menu_item_extras":"^2.4" 
+    },
+    "authors": [
+    ],
+    "repositories": {        
+		"dx8": {
+            "type": "vcs",
+            "url": "https://bitbucket.org/cohesion_dev/dx8-module.git"
+        },
+        "dx8-theme": {
+            "type": "vcs",
+            "url": "https://bitbucket.org/cohesion_dev/dx8-theme.git"
+        },
+		"pixel-dx8-theme": {
+            "type": "git",
+            "url": "https://github.com/pixel-by-pixel/pixel_dx8_theme"
+        }	
+    },	
+    "minimum-stability": "dev",
+    "extra": {
+        "installer-paths": {
+            "web/core": ["type:drupal-core"],
+            "web/libraries/{$name}": ["type:drupal-library"],
+            "web/modules/contrib/{$name}": ["type:drupal-module"],
+            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "web/themes/contrib/{$name}": ["type:drupal-theme"],
+            "drush/Commands/{$name}": ["type:drupal-drush"],
+			"web/modules/custom/{$name}": ["type:drupal-custom-module"],
+			"web/themes/custom/{$name}": ["type:drupal-custom-theme"],
+			"./": ["drupal-composer/drupal-project"]
+        },
+    },
+    "require-dev": {
+    }
+}
