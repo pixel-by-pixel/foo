@@ -9,8 +9,8 @@
 		"sort-packages": true
     },	
     "require": {
-		"cohesion/dx8": "^5.4",
-        "cohesion/dx8-theme": "^5.4",	
+		"cohesion/dx8": "^5.4.0",
+        "cohesion/dx8-theme": "^5.4.0",	
         "pixel-by-pixel/pixel_dx8_theme": "*",
 		"drupal/menu_link_attributes" : "^1.0",
 		"drupal/metatag": "^1.8",
