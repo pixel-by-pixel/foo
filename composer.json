@@ -28,7 +28,11 @@
     },
     "authors": [
     ],
-    "repositories": {        
+    "repositories": {
+        "0": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },	    
 		"dx8": {
             "type": "vcs",
             "url": "https://bitbucket.org/cohesion_dev/dx8-module.git"
