@@ -42,7 +42,7 @@
             "url": "https://github.com/pixel-by-pixel/pixel_dx8_theme"
         }	
     },	
-    "minimum-stability": "dev",
+    "minimum-stability": "dev-master",
     "extra": {
         "installer-paths": {
             "web/core": ["type:drupal-core"],
