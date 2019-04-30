@@ -1,7 +1,7 @@
 {
     "name": "pixel-by-pixel/foo",
     "description": "Drupal project with composer",
-    "type": "project",
+    "type": "library",
 	"config": {
         "platform": {
             "php": "7.1"
