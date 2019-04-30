@@ -44,7 +44,11 @@
 		"pixel-dx8-theme": {
             "type": "git",
             "url": "https://github.com/pixel-by-pixel/pixel_dx8_theme"
-        }	
+        },
+	     {
+        "type": "composer",
+        "url": "https://asset-packagist.org"
+    }
     },	
     "minimum-stability": "dev",
     "extra": {
