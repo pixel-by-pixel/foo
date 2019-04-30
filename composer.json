@@ -58,23 +58,5 @@
 			"web/modules/custom/{$name}": ["type:drupal-custom-module"],
 			"web/themes/custom/{$name}": ["type:drupal-custom-theme"]
         }
-    },
-    "require-dev": {
-		"cohesion/dx8": "^5.4",
-        "cohesion/dx8-theme": "^5.4",	
-        "pixel-by-pixel/pixel_dx8_theme": "*",
-		"drupal/menu_link_attributes" : "^1.0",
-		"drupal/metatag": "^1.8",
-		"drupal/xmlsitemap" : "^1.0",
-		"drupal/pathauto": "^1.4",
-		"drupal/better_exposed_filters": "^3.0",
-		"drupal/commerce" : "*",
-		"drupal/admin_toolbar": "^1.26",
-		"drupal/context":"^4.0",
-		"drupal/google_analytics":"^2.4",
-		"drupal/views_infinite_scroll":"^1.5",
-		"drupal/request_data_conditions":"^1.5",
-		"drupal/search_api":"^1.12",
-		"drupal/menu_item_extras":"^2.4" 	    
     }
 }
